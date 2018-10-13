@@ -1,0 +1,11 @@
+digraph robdd.dot {
+	0 [label="0", shape=box];
+	1 [label="a"];
+	6 [label="c"];
+	8 [label="1", shape=box];
+
+	1 -> 8 [label="0", style=dotted]
+	1 -> 6 [label="1", style=solid]
+	6 -> 0 [label="0", style=dotted]
+	6 -> 8 [label="1", style=solid]
+}
